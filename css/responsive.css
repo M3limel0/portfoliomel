@@ -1,0 +1,330 @@
+
+
+@media screen and (max-width: 768px) {
+
+  body{
+    margin-left: 0%;
+  }
+
+
+/* =========== NAVBAR =========== */
+
+.container {
+  padding: 0 1rem;
+}
+
+/* ==HEADER == */
+  
+#rosace{
+  display: flex;
+  width: 10%;
+}
+  
+li{
+  display: flex;
+  justify-content: center;
+}
+    
+.navbar {
+  background-color: #CCCAE0;
+  position: absolute;
+  top: 3.5rem;
+  right: 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 500ms;
+}
+    
+.show-navbar {
+  background-color: #CCCAE0;
+  display: flex;
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 300ms;
+}
+    
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+  
+.nav-item img{
+  display: block;
+  width: 15%;
+}
+  
+.nav-item {
+  margin: 0.4rem 0;
+}
+  
+.menu-toggle {
+  display: block;
+}
+  
+.bx-menu {
+  display: block !important;
+}
+    
+.show-bx {
+  display: block !important;
+}
+    
+.hide-bx {
+  display: none !important;
+}
+    
+
+/* =========== INTRO =========== */
+
+    
+.inttitre{
+  display: block;
+}
+
+.int{
+  justify-content: center;
+}
+
+/* Logo */
+.intdeux{
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.inttitre img{
+  width:55%;
+}
+   
+.int p{
+  text-align: center;
+}
+
+/* =========== PRESENTATION =========== */
+
+/* Titre */
+
+#tpresentation {
+  max-width: 80vw;
+}
+
+/* Contenu */
+.contenu_presentation{
+  display: block;
+}
+
+.preun img{
+  height: 15em;
+}
+
+.pre{
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.pre p{
+  text-align: center;
+}
+
+.predeux p{
+  margin-bottom: 10%;
+}
+.i{
+  margin-right: 5%;
+  height: 80%;
+}
+/* =========== PRESTATION =========== */
+#prestation{
+  display: block;
+}
+
+.presta{
+  flex-direction: row;
+  align-items: center;
+  width:auto;
+  margin-top: 15%;
+}
+
+.presta p, 
+.presta h3{
+  text-align: left;
+  margin-left: 10%;
+}
+
+#comm{
+  flex-direction: row-reverse;
+}
+
+#comm p, 
+#comm h3{
+  text-align: right;
+  margin-right: 10%;
+}
+
+#comm img{
+  height: 5em;
+}
+
+.presta img{
+  height: 8em;
+  width: auto;
+  margin: 0%;
+}
+
+#iweb{
+  height: 6.5em;
+}
+
+
+.content{
+  min-height: 0; /*permet à .content de s'ajuster à la hauteur de son contenu*/
+}
+
+
+
+/* =========== COMPETENCE =========== */
+
+/* Titre */
+#tcompetences {
+  max-width: 80vw;
+}
+
+/* Contenu */
+#contenu_competences{
+  display: block;
+}
+
+.lc{
+  width: 100%;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.lc h3{
+  padding-bottom: 2%;
+}
+
+.lc img{
+  display: flex;
+  width:10%;
+  height: auto;
+  justify-content: center; 
+  /* margin-top: 5%; */
+  align-items: center ;
+}
+/* =========== HOBBIES =========== */
+
+/* Titre */
+
+#thobbies {
+  width: 60vw;
+}
+
+/* Contenu */
+#contenu_hobbies{
+  display: block;
+}
+.ih{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: left;
+  margin-bottom: 15%;
+}
+
+.ihth{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+.ihth p{
+  text-align: right;
+}
+
+.ihth h3{
+  text-align: right;
+}
+
+
+.ihth img{
+  max-width: 30%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.ih img{
+  max-width: 30%;
+  margin-left: 5%;
+}
+
+#icinema{
+  max-width: 38%;
+
+}
+
+#iscience{
+  margin-bottom: 0%;
+}
+
+
+/* =========== TRAVAUX =========== */
+
+#travaux{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#ttravaux{
+  margin-bottom: 10%;
+}
+
+.tabs{
+  display: none;
+}
+
+.tata{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: repeat(2, auto);
+
+  
+}
+
+.tata div{
+  width: 100%;
+  padding-bottom: 100%; 
+  position: relative; 
+  background-color: #CCCAE0;
+}
+
+.tata img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+}
+
+}
+
+
+
+  
+
+  
+
+
+
+
+  
