@@ -449,6 +449,7 @@ ul {
   margin-top: 1%;
   padding-left: 1.5rem;
   font-size: calc(11px + 0.5vw);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .cvdeux hr {
