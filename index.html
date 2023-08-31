@@ -3,9 +3,8 @@
     <head>
         <!--encodage-->
        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-       <!--titre de l'onglet-->
+       <metaname="viewport" content="width=768, initial-scale=1"></metaname>
+        <!--titre de l'onglet-->
        <title>MGN | Portfolio</title>
        <!--relie la page css à la page html--> 
        <link rel="stylesheet" href="css/portfolio.css"> 
@@ -14,6 +13,8 @@
        <script src="js/portfolio.js" defer></script> 
        <!--importation police-->
        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+       <link href="../Code/police/BDSupper-Regular.ttf"> 
+       <link href="../Code/police/BDSupper-Bold.ttf"> 
        <!-- icone -->
        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
    </head>
@@ -29,27 +30,10 @@
             <li class="nav-item">
                 <img src="img/rosace.svg" alt="rosace"/>
             </li>
-            <li class="nav-item">
-                <a href="#presentation">
-                    <button class="button"> À propos </button>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#cv">
-                <button class="button"> Curriculum vitae </button>
-            </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#travaux">
-                    <button class="button"> Portfolio </button>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#contact"><button class="button"> Contact </button>
-                </a>
-            </li>
+            <li class="nav-item"><a href="#presentation"><button class="button"> À propos </button></a></li>
+            <li class="nav-item"><a href="#tcv"><button class="button"> Curriculum vitae </button></a></li>
+            <li class="nav-item"><a href="#titre_travaux"><button class="button"> Portfolio </button></a></li>
+            <li class="nav-item"><a href="#contact"><button class="button"> Contact </button></a></li>
             <li class="nav-item">
                 <img src="img/rosace.svg" alt="rosace"/>
             </li>
@@ -138,20 +122,114 @@
                 <img src="img/icone/icone-communication.png" alt="icone-communication" id="icommunication">
                 <div class="content">
                     <h3>Communication</h3>
-                    <p>Réseaux sociaux, print, je m’intéresse à comment développer une stratégie adaptée.</p>
+                    <p>Digitale ou print, je m’intéresse à comment développer une stratégie adaptée.</p>
                 </div>
             </div>
             <div class="presta">
                 <img src="img/icone/icone-web.png" alt="icone-web" id="iweb">
                 <div class="content">
                     <h3>Web</h3>
-                    <p>De la maquette au développement ! Je touche à chaque étapes de la construction d’un site.</p>
+                    <p> De la maquette au développement ! Je touche à chaque étapes de la construiction d’un site.</p>
                 </div>
             </div>
         </section> 
         <div class="titre_cv">
             <img src="img/titre/titre-cv.svg" alt="titre-presentation" id="tcv"/>
         </div>
+        <section id="respcv">
+            <div class="box">
+                <p class="date">Avril 2023</p>    
+                <hr/>
+                <p class="poste"><span class="surlignage">Chargée de communication</span><br/> RDTA | Bourg-en-Bresse</p>
+                <p class="dposte">
+                    Réalisation de supports de communication
+                    <br/>Campagne de recrutement
+                    <br/>Création de contenus à destination :
+                    <ul>
+                        <li>Des réseaux sociaux</li>
+                        <li>Du site web</li>
+                        <li>De l'intranet</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="box">
+                <p class="date">2021 - 2022</p>  
+                <hr/>
+                <div class="bbox">
+                    <div class="left">             
+                        <p class="poste"><span class="surlignage">Licence professionnelle ATII</span>
+                            <br/>St-Etienne | IUT Jean Monnet
+                        </p>
+                        <p class="dposte">
+                            Création d’une plateforme e-commerce
+                            <br/>Conception d’un site pour l’association “Parc-de-Montaud”
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="poste"><span class="surlignage">Créatrice digitale en apprentissage</span>
+                            <br/>SDMIS | Lyon
+                        </p>
+                        <p class="dposte">
+                            <br/>
+                            Conception d’un outil numérique de référencement
+                            <br/>Communication visuelle
+                            <br/>Gestion de plateforme
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="box">
+                <p class="date">2020 - 2021</p>
+                <hr/>
+                <p class="poste"><span class="surlignage">Employée polyvalente</span>
+                    <br/>LECLERC | Beynost
+                </p>
+                <p class="dposte">
+                    Acceuil & relation client
+                    <br/>Hôtesse de caisse
+                </p>
+            </div>
+            <div class="box">
+                <p class="date">2018 - 2020</p>  
+                <hr/>
+                <p class="poste"><span class="surlignage">Formation ingénieur bâtiment</span>
+                    <br/>Troyes | ESTP
+                    <br/>BIM.physique.gestion de projet
+                </p>
+                <p class="dposte"></p>
+            </div>
+            <div class="box">
+                <p class="date">Août 2018</p>
+                <hr/>
+                <p class="poste"><span class="surlignage">Vendeuse en prêt-à-porter</span>
+                    <br/>DEVRED | Beynost
+                </p>
+                <p class="dposte">
+                    Acceuil & relation client
+                    <br/>Technique de vente
+                    <br/>Hôtesse de caisse
+                </p>
+            </div>
+            <div class="box">
+                <p class="date">2015 - 2018</p> 
+                <hr/>
+                <p class="poste"><span class="surlignage">Classe préparatoire MPSI</span>
+                    <br/>Bourg-en-Bresse | Lycée Lalande
+                    <br/>math.physique.ingéniérie
+                </p>
+                <p class="dposte"></p>
+            </div>
+            <div class="box">
+                <p class="date">2015</p>
+                <hr/>
+                <p class="poste"><span class="surlignage">BAC S</span>
+                    <br/>Lyon | Lycée Lumière
+                    <br/>Option Cinéma Audiovisuel
+                </p>
+                <p class="dposte"></p>
+            </div>
+        </section>
         <section id="cv">
             <div class="sstitre_cv">
                 <h3>FORMATION</h3>
@@ -171,7 +249,7 @@
                         <p class="dposte">
                             Réalisation de supports de communication
                             <br/>Campagne de recrutement
-                            <br/>Création de contenus à destination:
+                            <br/>Création de contenus à destination :
                             <ul>
                                 <li>Des réseaux sociaux</li>
                                 <li>Du site web</li>
@@ -188,7 +266,7 @@
                         </p>
                         <p class="dposte">
                             Création de mon portfolio
-                            <br/>Création d’un site e-commerce
+                            <br/>Conception d’une plateforme e-commerce
                             <br/>Création d’un site pour l’association “Parc-de-Montaud”
                         </p>
                     </div>
@@ -450,9 +528,9 @@
                 <p>Rejoins moi sur</p>
             </div>
             <div id="bcontact">
-                <a href="https://www.instagram.com/_melgn/"target="blank"><button class="button" id="binstagram"> Instagram </button></a>
-                <a href="https://www.linkedin.com/in/m%C3%A9lanie-gacon-736048204/"target="blank"><button class="button" id="blinkedin"> LinkedIn </button></a>
-                <a href="https://www.behance.net/mlaniegacon"target="blank"><button class="button" id="bbehance"> Behance</button></a>
+                <a href="https://www.instagram.com/_melgn/" target="blank"><button class="button" id="binstagram"> Instagram </button></a>
+                <a href="https://www.linkedin.com/in/m%C3%A9lanie-gacon-736048204/" target="blank"><button class="button" id="blinkedin"> LinkedIn </button></a>
+                <a href="https://www.behance.net/mlaniegacon" target="blank"><button class="button" id="bbehance"> Behance</button></a>
             </div>
             <img src="img/rosace.svg" alt="rosace" id="contactrosace">
     </main>

@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 768px) {
 
   body{
@@ -7,9 +6,8 @@
   }
 
   section{
-    margin-bottom:20%;
+    margin-bottom: 25%;
   }
-
 
 /* =========== NAVBAR =========== */
 
@@ -115,7 +113,7 @@ li{
 /* Titre */
 
 #tpresentation {
-  max-width: 80vw;
+  max-width: 90vw;
 }
 
 /* Contenu */
@@ -155,48 +153,110 @@ li{
   margin-top: 15%;
 }
 
-.presta p, 
-.presta h3{
-  text-align: left;
-  margin-left: 10%;
-}
 
 #comm{
   flex-direction: row-reverse;
 }
 
+.presta p, 
+.presta h3{
+  text-align: right;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.presta h3{
+  margin-top: 0;
+}
+
 #comm p, 
 #comm h3{
-  text-align: right;
+  text-align: left;
   margin-right: 10%;
 }
 
-#comm img{
-  height: 5em;
+
+
+#icommunication, 
+#iweb {
+  margin-bottom: 0;
 }
 
 .presta img{
-  height: 8em;
+  height: 6em;
   width: auto;
-  margin: 0%;
 }
 
-#iweb{
-  height: 6.5em;
+#icommunication{
+  height:auto;
 }
-
 
 .content{
-  min-height: 0; /*permet à .content de s'ajuster à la hauteur de son contenu*/
+  min-height: 0; /*permet Ã  .content de s'ajuster Ã  la hauteur de son contenu*/
+}
+
+/* =========== CV =========== */
+
+#cv{
+  display: none;
 }
 
 
+#respcv{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1%;
+}
 
+
+.box{
+  display: flex;
+  flex-direction: column;
+  font-family:'Quicksand-Regular';
+  font-size:calc(8px + 0.7vw);
+  color: #3A3B3B;
+  margin-top: 3%;
+}
+
+ul{
+  margin-top: 0%;
+  list-style-type:none;
+  text-align: center;
+  padding: 0;
+}
+
+.bbox{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3%;
+}
+
+p{
+  text-align: center;
+}
+
+.left p{
+  text-align: right;
+}
+
+.right p{
+  text-align: left;
+}
+
+@keyframes draw2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 30%;
+  }
+}
 /* =========== COMPETENCE =========== */
 
 /* Titre */
 #tcompetences {
   max-width: 80vw;
+  margin-top: 20%;
 }
 
 /* Contenu */
@@ -228,13 +288,18 @@ li{
 
 #thobbies {
   width: 60vw;
-  margin-bottom:15%;
+  margin-bottom: 15%;
 }
 
 /* Contenu */
 #contenu_hobbies{
   display: block;
 }
+
+.ch p{
+  text-align: left;
+}
+
 .ih{
   display: flex;
   flex-direction: row-reverse;
@@ -319,6 +384,11 @@ li{
   width: 100%;
   height: 100%;
   border-radius: 1px;
+}
+
+#contactrosace {
+  margin-top: 10%;
+  height: 2em;
 }
 
 }
