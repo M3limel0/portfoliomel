@@ -3,6 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* General */
 
 @font-face {
   font-family: "BDSupper-Bold";
@@ -34,6 +35,10 @@ section {
   display: flex;
 }
 
+#respcv{
+  display: none;
+}
+
 h3 {
   font-family: "BDSupper-Regular";
   color: #3a3b3b;
@@ -60,7 +65,7 @@ h3 {
   padding: 0.5em 1.5em;
   background: #ffffff00;
   transition: 0.2s;
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   margin: auto;
   font-size: calc(11px + 0.5vw);
 }
@@ -280,7 +285,7 @@ header {
 /* Paragraphe */
 .intsept {
   grid-column: 1/3;
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   font-size: calc(11px + 0.5vw);
   align-items: center;
 }
@@ -336,7 +341,7 @@ header {
 }
 
 p {
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   font-size: calc(11px + 0.5vw);
 }
 
@@ -408,7 +413,7 @@ img {
 }
 
 .timeline div {
-  font-family: "Quicksand-Regular";
+  font-family: 'Quicksand', sans-serif;
   font-size: calc(11px + 0.5vw);
   color: #3a3b3b;
   height: 100%;
@@ -422,7 +427,7 @@ img {
 
 .surlignage {
   font-family: 'Quicksand', sans-serif;
-  font-weight:700;
+  font-weight: 700;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #cccae0 50%);
   max-width: 100%;
 }
@@ -451,8 +456,9 @@ p {
 
 ul {
   margin-top: 1%;
-  padding-left: 1.5rem;
+  padding-left: 0;
   font-size: calc(11px + 0.5vw);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .cvdeux hr {
@@ -518,7 +524,7 @@ hr {
   margin-left: 5%;
   margin-right: 5%;
   height: 50px;
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   color: #3a3b3b;
   text-align: center;
   font-size: calc(11px + 0.5vw);
@@ -579,7 +585,7 @@ hr {
 }
 
 .lc ul {
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   font-size: calc(11px + 0.5vw);
   list-style: none;
   text-align: center;
@@ -674,7 +680,7 @@ hr {
   padding: 0.5em 1.5em;
   background: #ffffff00;
   transition: 0.2s;
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   margin: auto;
   font-size: calc(11px + 0.5vw);
 }
@@ -788,7 +794,7 @@ h2 {
 
 #tcontact p {
   margin: auto;
-  font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
   font-size: calc(11px + 0.5vw);
   margin-top: 0%;
   margin-bottom: 1.2%;
@@ -817,6 +823,7 @@ h2 {
   justify-content: center;
   margin-top: 5%;
   align-items: center;
+  height: 3em;
 }
 /* ================= FOOTER ================ */
 
